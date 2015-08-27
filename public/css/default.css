@@ -1,0 +1,269 @@
+/*.date{
+    padding-top: 200px;
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+*{margin:0;padding:0;}
+
+body{
+  background-color:#1FBAD6;
+    /*font-family:helvetica;*/
+    margin-left: 65px;
+    margin-right: 65px;
+    font: normal 17px/1.5 Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    color: #5E5F63;
+    background:#567;
+  font-family:'Open Sans',sans-serif;
+}
+
+.button{
+  width:100px;
+  background:#3399cc;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.button:hover{
+  background:#2288bb;
+}
+
+#login{
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+#triangle{
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #3399cc;
+  border-left:12px solid transparent;
+  margin:0 auto;
+}
+
+#login h1{
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+input[type="email"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+input[type="submit"]:hover{
+  background:#2288bb;
+}
+
+.image1{
+    float: right;
+    width: 362px;
+    height: 159px;
+}
+
+.image2{
+    width: 367px;
+    height: 159px;
+    }
+
+.header { margin: 20px;
+        background: #FFFFFF url("http://2.bp.blogspot.com/-fEEO0sbC9hQ/VAiiEMSVRFI/AAAAAAAAfOk/HBCfbMPDFf0/s1600/uber.png");
+        background-repeat: no-repeat; 
+        background-position: center; 
+        width: 100%;
+        border: ridge;
+      } 
+
+h1{
+  text-align: center;
+}
+
+.dark-placeholder {
+  padding-top: 100px;
+  padding-bottom:10px;
+}
+
+*{ 
+  margin:0;
+  padding-top:200px;
+}
+
+a{
+  display:block;
+  color:#ad5482;  
+  text-decoration:none;
+  font-weight:bold;
+  margin-top:40px;
+  text-align:center;
+}
+
+#bg{
+  position:relative;
+  top:20px;
+  height:600px;
+  width:800px;
+  background:url('https://cdn0.vox-cdn.com/thumbor/GTzDqJniY_QqeUL5yWmWMVck7uo=/164x0:1228x599/1600x900/cdn0.vox-cdn.com/uploads/chorus_image/image/45205974/uber_SafeCities_BlogHeader.0.0.png') center no-repeat;
+  background-size:cover;
+  margin-left:auto;
+  margin-right:auto; 
+  border:#fff 15px solid;
+}
+
+.module{
+  position:relative;
+  top:15%;    
+  height:70%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+  background:RGBA(255,255,255,1);
+    
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  
+}
+
+.module ul{
+  list-style-type:none;
+  margin:0;
+}
+
+.tab{
+  float:left;
+  height:60px;
+  width:25%;
+  padding-top:20px;
+  box-sizing:border-box;
+  background:#eeeeee;  
+  text-align:center;
+  cursor:pointer;
+  transition:background .4s;
+}
+
+.tab:first-child{  
+  -webkit-border-radius: 5px 0px 0px 0px;
+  border-radius: 5px 0px 0px 0px;
+}
+
+.tab:last-child{  
+  -webkit-border-radius: 0px 5px 0px 0px;
+  border-radius: 0px 5px 0px 0px;
+}
+
+.tab:hover{  
+  background-color:rgba(0,0,0,.1);
+}
+
+.activeTab{
+  background:#fff;
+}
+
+.activeTab .icon{
+  opacity:1;
+}
+
+.icon{
+  height:24px;
+  width:24px;
+  opacity:.2;
+}
+
+.form{
+  float:left;
+  height:86%;
+  width:100%;
+  box-sizing:border-box;
+  padding:40px;
+}
+
+.textbox{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+}
+
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+
+.button{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  background:#90c843;
+  color:#FFF;
+  font-weight:bold;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+
+.button:hover{
+  background:#80b438;
+  
+}
+
+h3{
+  text-align: center;
+}
+/*below is issue form & radio buttons page style*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+/*    width: 200px;*/
+    margin: 20px auto;
+}
