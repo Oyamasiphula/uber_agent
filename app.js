@@ -50,8 +50,8 @@ app.post('/driver_prop',function(req, res, next){
     res.render('advise_driver');
 })
 
-app.get('/driver_datails',function(req, res, next){
-    res.render('driver_prop');
+app.post('/rate_me',function(req, res, next){
+    res.render('advise_driver', {msg : "Link sent to driver!"});
 })
 
 
@@ -63,7 +63,11 @@ app.get('/reference_nos',function(req, res, next){
     res.render('ref_nos');
 })
 
+app.post('consult', dataServices.get_ref_info);
 
+app.get('present_drivers', function(req, res, next){
+    res.render('present_drivers')
+});
 
 // app.post('/step4_ref_no', dataServices.save_driver_issues);
 

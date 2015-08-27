@@ -4,23 +4,27 @@
 	<form action="driver_prop" method='post'>
 		<ul>
 			{{#driver_details}}
-				<li>Name : {{name}}</li> 
+				<li>Ref. No. : <strong>{{ref_no}}</strong></li> 
 
-				<li>Surname : {{surname}}</li>
+				<li>Name : <strong>{{name}}</strong></li> 
 
-				<li>Cell : {{cell_number}}</li>
+				<li>Surname : <strong>{{surname}}</strong></li>
 
-				<li>Email : {{email}}</li> 
+				<li>Cell : <strong>{{cell_number}}</strong></li>
 
-				<li>Date : {{date}}</li>
-				<li>issues number : {{issues}}</li>
+				<li>Email : <strong>{{email}}</strong></li> 
+
+				<li>Date : <strong>{{date}}</strong></li>
 			{{/driver_details}}
-			<li>Issues:
-				{{#issues}}
-					<ul>
-						<li>{{issue}}</li>
-					</ul>
-				{{/issues}}
+			<br/>
+			<li><h3>Issues:</h3>
+				<ul>
+					{{#issues}}
+						<div class="textbox">
+							<li><strong>{{issue}}</strong></li>
+						</div>
+					{{/issues}}
+				</ul>
 			</li>
 		</ul>
 	  <input type='submit' value='Submit'/>  

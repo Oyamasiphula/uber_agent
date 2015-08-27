@@ -1,2 +1,18 @@
-<h2>Advise driver to rate your service</h2>
-
+<div id="bg">
+	<div class="wrapper">
+		<div class="module">
+		  
+			<form action="/rate_me" method="post"><br/>
+				<h1>Let Driver Rate Your Service</h1>
+				{{#if msg}}
+					<p>{{msg}}</p><br>
+				{{/if}}
+				<input type="text" name="rate_info" class="textbox" required value="Send rating page to driver." readonly>
+			    <input type="submit" value="Send via SMS"  />
+			</form>
+			<form action="/" method="post">
+				<input type="submit" value="Next Person"  />
+			</form>
+		</div>
+	</div>
+</div>
