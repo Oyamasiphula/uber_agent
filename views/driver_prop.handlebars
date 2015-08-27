@@ -1,24 +1,28 @@
 <div id="bg">
 	<h1>Driver Details</h1>
 
-	<ul>
-	  <li>Name : sadasd</li> 
-	  
-	  <li>Surname : sadsdsad</li>
+	<form action="driver_prop" method='post'>
+		<ul>
+			{{#driver_details}}
+				<li>Name : {{name}}</li> 
 
-	 <li>Cell : sdksnadsja</li>
+				<li>Surname : {{surname}}</li>
 
-	  <li>Email : sdsadsad</li> 
+				<li>Cell : {{cell_number}}</li>
 
+				<li>Email : {{email}}</li> 
 
-	  <li>Issues:
-	  		<ul>
-	  			<li>sadnasdjd</li>
-	  			<li>sdskknksjd</li>
-	  		</ul>
-	  </li>
-	  </ul>
-	<form action="" method='post'>
-	  <input type='Done' value='Submit'/>  
+				<li>Date : {{date}}</li>
+				<li>issues number : {{issues}}</li>
+			{{/driver_details}}
+			<li>Issues:
+				{{#issues}}
+					<ul>
+						<li>{{issue}}</li>
+					</ul>
+				{{/issues}}
+			</li>
+		</ul>
+	  <input type='submit' value='Submit'/>  
 	</form>
 </div>
